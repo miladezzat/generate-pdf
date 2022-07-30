@@ -1,0 +1,28 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "test",
+            "email": "test@test.com",
+            "address": "test address"
+        }
+    ],
+    "policies": [{
+        "id": 1,
+        "startDate": "10-08-2021",
+        "endDate": "15-08-2021",
+        "effectiveDate": "14-08-2021",
+        "location": ["testing", "testing"],
+        "tripCost": 100,
+        "car": true,
+        "medical": "1a",
+        "pet": true,
+        "cancel": false,
+        "customerId": 1
+    }],
+    "policiesHolders": [{
+        "id": 1,
+        "name": "policy Test",
+        "policyId": 1
+    }]
+}
