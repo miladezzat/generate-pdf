@@ -1,0 +1,102 @@
+<html lang="en">
+
+<body id="policy_2_pager" lang="he-IL">
+    <div id="_idContainer000" class="Basic-Text-Frame">
+        <p class="Basic-Paragraph ParaOverride-1"><span class="CharOverride-1">Your Faye Travel Protection Plan</span>
+        </p>
+        <p class="Basic-Paragraph ParaOverride-1"><span class="CharOverride-2">The carry-on version</span></p>
+        <p class="Basic-Paragraph ParaOverride-1"><span class="CharOverride-3">Travel</span><span
+                class="CharOverride-3">
+                insurance policies can be longggg &amp; boring. That’s why </span><span class="CharOverride-3">we’ve
+                summarized key components of the plan you have </span><span class="CharOverride-3">purchased, in plain
+                English, so you can hit the road </span><span class="CharOverride-3">well-informed on how your coverage
+                protects you.</span></p>
+        <p class="section-title ParaOverride-2">Your plan details</p>
+        <p>Name: {{customer.name}}</p>
+        <p>Name: {{customer.address}}</p>
+
+        <p class="section-title">Add-ons</p>
+        <p class="table-titles ParaOverride-6"><span class="CharOverride-7">Add-on terms unpacked</span></p>
+        <table id="table007" class="Table">
+            <colgroup>
+                <col class="_idGenTableRowColumn-9" />
+                <col class="_idGenTableRowColumn-10" />
+                <col class="_idGenTableRowColumn-11" />
+            </colgroup>
+            <tbody>
+                {{#if cancelReason}}
+                <tr class="Table _idGenTableRowColumn-20">
+                    <td class="Table CellOverride-2">
+                        <p class="coverage-title-purple">Cancel for any reason: </p>
+                        <p class="coverage-title">The ability to nix your trip for reasons other than those covered in
+                            your plan’s trip cancellation coverage</p>
+                        <p class="coverage-text">We reimburse you for <span class="bold-in-text">up to 75%</span> of
+                            non-refundable trip expenses ($2,250) as long as you cancel at least 48 hours in advance of
+                            your scheduled departure date.</p>
+                        <p class="coverage-text">See “Cancel for Any Reason Bundle” in your plan document</p>
+                    </td>
+                    <td class="Table CellOverride-2" />
+                    <td class="Table CellOverride-2">
+                        <p class="example-title">Examples of reasons to cancel:</p>
+                        <ul>
+                            <li class="example-text">You don’t feel like going</li>
+                            <li class="example-text">You’re scared of contracting COVID-19</li>
+                            <li class="example-text">The dog ate your homework</li>
+                            <li class="example-text">You forgot you had plans and prefer to stay put</li>
+                        </ul>
+                    </td>
+                </tr>
+                {{/if}}
+                {{#if petCare}}
+                <tr class="Table _idGenTableRowColumn-21">
+                    <td class="Table CellOverride-2">
+                        <p class="coverage-title-purple">Pet care: </p>
+                        <p class="coverage-title">Coverage of veterinary expenses if you take your furry friend along,
+                            or kenneling costs if you arrive back home later than expected <span class="CharOverride-11"
+                                lang="en-US">or if your pet has to be quarantined</span></p>
+                        <p class="coverage-text">We reimburse you <span class="bold-in-text">up to $2.5K</span> in
+                            veterinary expenses or quarantine kenneling and <span class="bold-in-text">$250</span> for
+                            kenneling due to delay. We’ll also reimburse <span class="bold-in-text">up to $250</span>
+                            for necessary, reasonable, expenses to return your pet.<br /></p>
+                        <p class="coverage-text">See “Pet Parent Bundle” in your plan document</p>
+                    </td>
+                    <td class="Table CellOverride-2" />
+                    <td class="Table CellOverride-2">
+                        <p class="example-title">Examples of covered pet care costs:</p>
+                        <ul>
+                            <li class="example-text">Pet sickness or injury that requires emergency medical attention
+                            </li>
+                            <li class="example-text">You are sick and hospitalized and prefer to have your four-legged
+                                friend transported home</li>
+                            <li class="example-text">Kenneling fees if you’re delayed getting back home</li>
+                        </ul>
+                    </td>
+                </tr>
+                {{/if}}
+                {{#if rentalCarCare}}
+                <tr class="Table _idGenTableRowColumn-14">
+                    <td class="Table CellOverride-3">
+                        <p class="coverage-title-purple">Rental car care: </p>
+                        <p class="coverage-title">Coverage in the event of accidental damage or theft related to your
+                            rental car for 12.30.2022-1.6.2023</p>
+                        <p class="coverage-text">We reimburse you for the damages to the vehicle,<span
+                                class="bold-in-text"> up to $50K.</span></p>
+                        <p class="coverage-text">See “Rental Car Bundle” in the plan document</p>
+                    </td>
+                    <td class="Table CellOverride-3" />
+                    <td class="Table CellOverride-3">
+                        <p class="example-title">Examples of covered rental car care costs:</p>
+                        <ul>
+                            <li class="example-text">Damage due to reasons outside of your control such as theft,
+                                vandalism or natural disaster</li>
+                            <li class="example-text">Damage due to an accident with an object or another vehicle</li>
+                        </ul>
+                    </td>
+                </tr>
+                {{/if}}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
